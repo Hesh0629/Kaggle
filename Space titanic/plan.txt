@@ -1,0 +1,30 @@
+Spaceship Titanic
+승객의 데이터를 보고 승객이 transported 됬는지 판단하기. (이진분류)
+
+
+모든 데이터의 2%가 손실
+(구찮다 그냥 이전 값 긁어오자)
+
+원핫 인코딩
+HomePlanet
+Destination
+CryoSleep
+VIP
+
+
+Cabin? 
+parsing 해서 각각 저장
+(알파벳 / 숫자 / 알파벳)
+원핫이 아닌 cardinal 이용
+
+나머지는 numeric + standard정규화
+
+
+randomforest_clf
+adaboost_clf
+xgb boost_clf
+(svm...?)
+
+이 셋으로 돌리고
+
+이후 차원축소 한번 더 진행
